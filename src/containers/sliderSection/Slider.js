@@ -8,8 +8,8 @@ const Slider = () => {
   return (
     <div className="app-slider-container">
       <Carousel>
-        {data.SliderData.map((el) => (
-          <Carousel.Item>
+        {data.SliderData.map((el, index) => (
+          <Carousel.Item key={el.id}>
             <div className="app-slider-container__block">
               <SliderItem key={el.id} slider={el} />
             </div>

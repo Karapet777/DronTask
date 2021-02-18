@@ -10,7 +10,7 @@ const Clients = () => {
       <div className="app-client-container__block-carousel">
         <Carousel>
           {data.clients.map((el) => (
-            <Carousel.Item>
+            <Carousel.Item key={el.id}>
               <div className="app-slider-container__block">
                 <ClientItem key={el.id} client={el} />
               </div>

@@ -135,17 +135,17 @@ export const data = {
     },
     {
       id: 2,
-      name: "Peter McMillan",
+      name: "Stephan Smith",
       comment:
-        "“I’m not a pro in operating drones and that’s why I found the basic assistance from your staff very useful. Besides, your team has provided me with the necessary accessories for aerial photography that were very important for my photos.”",
+        "“I am always looking to expand the range of imaging products I work with. Drone has helped me a lot by providing top-notch drones that are more than suitable for my needs. Thank you for the quick delivery and great customer service!”",
       src: user2,
       status: "Recular Client",
     },
     {
       id: 3,
-      name: "Peter McMillan",
+      name: "Amanda Wilson",
       comment:
-        "“I’m not a pro in operating drones and that’s why I found the basic assistance from your staff very useful. Besides, your team has provided me with the necessary accessories for aerial photography that were very important for my photos.”",
+        "“I have been looking for replacement parts and components for my drone I bought a few years ago. Luckily, your store has provided me with every part I needed to upgrade my drone. I will surely recommend you to my friends.”",
       src: user3,
       status: "Recular Client",
     },
