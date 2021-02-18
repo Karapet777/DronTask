@@ -1,0 +1,25 @@
+.app-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 200px;
+  & img {
+    width: 150px;
+  }
+  &__block-links {
+    margin-top: 20px;
+    & ul {
+      display: flex;
+      li {
+        padding: 0 10px;
+        font-size: 18px;
+      }
+      li:hover {
+        color: #fd7e75;
+        cursor: pointer;
+      }
+    }
+  }
+}

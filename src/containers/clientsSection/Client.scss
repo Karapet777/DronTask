@@ -1,0 +1,16 @@
+.app-client-container {
+  background: url(../../assets/img/home-bg-01.jpg);
+  background-size: 580px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 50px 0;
+  height: 100%;
+
+  &__block-carousel {
+    padding: 150px 0;
+    background: url(../../assets/img/opasity.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+  }
+}

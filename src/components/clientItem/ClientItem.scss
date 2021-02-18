@@ -1,0 +1,24 @@
+.block-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__img {
+    border-radius: 50%;
+  }
+  &__block-text {
+    width: 700px;
+    margin-left: 20px;
+    &__name {
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+    &__comment {
+      line-height: 22px;
+      padding-bottom: 10px;
+    }
+    &__status {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}

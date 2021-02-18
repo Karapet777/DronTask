@@ -1,0 +1,35 @@
+.app-accessories-container {
+  background: url(../../assets/img/opasity.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 150px 0;
+  &__block {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    &__product-block {
+      display: flex;
+      justify-content: space-between;
+      transition: all 0.9s;
+    }
+    &__title {
+      font-size: 60px;
+      margin-bottom: 35px;
+    }
+    &__info {
+      width: 700px;
+      font-size: 20px;
+      margin: auto;
+      padding: 25px 0 50px 0;
+      line-height: 25px;
+    }
+    & div {
+      transition: all 0.8s;
+    }
+    & div:hover {
+      transform: scale(1.1);
+      transition: all 0.8s;
+    }
+  }
+}

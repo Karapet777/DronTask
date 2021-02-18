@@ -1,0 +1,39 @@
+.slider-Item {
+  color: white;
+  padding: 150px 0;
+  &__title-block {
+    text-align: center;
+    &__title {
+      font-size: 60px;
+      padding: 20px 0;
+    }
+    &__info {
+      line-height: 30px;
+    }
+  }
+  &__img-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    & p {
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      font-size: 20px;
+      text-align: end;
+    }
+    & span {
+      margin-right: 50px;
+    }
+    &__btns button {
+      color: white;
+      padding: 10px 25px;
+      background-color: transparent;
+      margin: 20px 10px;
+      border-radius: 10px;
+      border: 2px solid white;
+    }
+  }
+}

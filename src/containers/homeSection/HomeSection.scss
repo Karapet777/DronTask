@@ -1,0 +1,85 @@
+.app-HomeSection-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  &__drone-block {
+    width: 35%;
+    height: 100vh;
+    background: url(../../assets/img/home-bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    &__img1 {
+      position: absolute;
+      top: 30%;
+      left: -1000px;
+      transition: all 0.9s;
+      opacity: 0.9;
+    }
+    &__img2 {
+      position: absolute;
+      top: 20%;
+      left: -1000px;
+      transition: all 0.9s;
+      opacity: 0.9;
+    }
+    &__img3 {
+      position: absolute;
+      top: 30%;
+      left: -1000px;
+      transition: all 0.9s;
+      opacity: 0.9;
+    }
+  }
+  &__info-block {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__item {
+      text-align: center;
+    }
+    & h2 {
+      font-size: 60px;
+      letter-spacing: -0.02em;
+      margin-bottom: 40px;
+    }
+    & p {
+      width: 80%;
+      font-size: 20px;
+      text-align: center;
+      margin: 40px auto;
+    }
+    &__btn-Buy {
+      padding: 10px 25px;
+      border-radius: 10px;
+      margin: 0 25px;
+      border: none;
+    }
+    &__btn-slide {
+      border: 1px solid #fd7e75;
+      padding: 10px;
+      border-radius: 50%;
+      margin: 40px 10px;
+      cursor: pointer;
+    }
+  }
+}
+.write {
+  position: absolute;
+  top: 30%;
+  left: 130px;
+  transition: all 2s;
+  opacity: 1;
+}
+.btnBg {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 40px 10px;
+  border: none;
+  background-color: #fd7e75;
+  border: 1px solid #fd7e75;
+  transition: all 0.9s;
+}

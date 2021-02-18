@@ -1,0 +1,23 @@
+.app-gallery-container {
+  padding: 20px 0;
+  background: url(../../assets/img/opasity.png);
+  &__block-text {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    & h2 {
+      font-size: 60px;
+    }
+    & p {
+      padding: 10px;
+      line-height: 20px;
+      font-size: 18px;
+    }
+  }
+  &__block-slider {
+    text-align: center;
+    width: 100vw;
+  }
+}

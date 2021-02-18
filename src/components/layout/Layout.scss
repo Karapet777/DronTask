@@ -1,0 +1,10 @@
+@import "~style/root";
+
+.app-layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__main {
+    flex: 1;
+  }
+}

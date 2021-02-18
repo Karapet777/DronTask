@@ -1,0 +1,26 @@
+.app-features-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 10px;
+  background: url(../../assets/img/opasity.png);
+  background-repeat: no-repeat;
+  &__block-title {
+    text-align: center;
+    h2 {
+      font-size: 60px;
+      margin: 50px 0 20px 0;
+    }
+    p {
+      line-height: 40px;
+      font-size: 18px;
+      color: gray;
+    }
+  }
+  &__block-features {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+}

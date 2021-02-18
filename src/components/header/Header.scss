@@ -1,0 +1,45 @@
+@import "~style/root";
+
+.app-header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: transparent;
+  height: $header-size;
+  transition: all 0.9s;
+
+  &__nav {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    & ul {
+      display: flex;
+      li {
+        padding-left: 45px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+    }
+    &__logo {
+      width: 100px;
+    }
+  }
+}
+.activeNave {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  height: $header-size;
+  background-color: white;
+  background: white;
+  box-shadow: 5px 5px 40px #fd7e75, -20px -20px 6px white;
+  transition: all 0.9s;
+}

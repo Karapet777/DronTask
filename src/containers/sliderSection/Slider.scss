@@ -1,0 +1,9 @@
+.app-slider-container {
+  background: url(../../assets/img/home-bg-01.jpg);
+  background-size: cover;
+  &__block {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+}
